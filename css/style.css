@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Quicksand:wght@300&display=swap');
+
+
+/* step 1 -> I will reduce margin and padding to 0 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-bg-color: #2874f0;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 18px;
+    list-style: none;
+
+}
+
+nav {
+    display: flex;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+
+    
+
+.container {
+    min-height:  100vh;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 6vw;
+    margin: 20px;
+}
+
+
+#myid {
+    display: flex;
+    align-items: center;
+    height: 23px;
+    width: 350px;
+    border-radius: 5px;
+    margin: 0px 16px 0px 56px;
+    padding: 0px 5px;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+    list-style: none;
+}
+
+nav ul li a:hover {
+    /* color: rgb(116, 209, 219); */
+    font-weight: bold;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    height: 8vh;
+    align-items: center;
+
+}
+
+header {
+    /* background-color: black; */
+    background: var(--main-bg-color);
+    height: 58px;
+    color: azure;
+    font-family: 'Inspiration', cursive;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+footer {
+    height: 12vh;
+    /* background-color: black; */
+    background: var(--main-bg-color);
+    color: azure;
+    font-family: 'Inspiration', cursive;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* step 4) Now i will select some goods fonts using google fonts */
